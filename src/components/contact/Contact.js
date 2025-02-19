@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import EmailJS
+import emailjs from 'emailjs-com';
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
 
@@ -34,24 +34,17 @@ const Contact = () => {
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
-      // Sending email using EmailJS
       emailjs
         .send(
-          'service_3z0cm3z',       // Replace with your Service ID
-          'template_5658urc',      // Replace with your Template ID
-          {
-            username,
-            phoneNumber,
-            email,
-            subject,
-            message,
-          },
-          'Yceqg6ev5TznG-drr'           // Replace with your User ID
+          'service_3z0cm3z',
+          'template_5658urc',
+          { username, phoneNumber, email, subject, message },
+          'Yceqg6ev5TznG-drr'
         )
         .then(
           (response) => {
             console.log('SUCCESS!', response.status, response.text);
-            setSuccessMsg(`Thank you dear ${username}, Your message has been sent successfully!`);
+            setSuccessMsg(`Thank you dear ${username}. Your message has been sent successfully!`);
             setErrMsg("");
             setUsername("");
             setPhoneNumber("");
@@ -124,7 +117,7 @@ const Contact = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                   className={`${
-                    errMsg === "Please give your Email!" && "outline-designColor"
+                    errMsg === "Please provide your Email!" && "outline-designColor"
                   } contactInput`}
                   type="email"
                 />
@@ -137,7 +130,7 @@ const Contact = () => {
                   onChange={(e) => setSubject(e.target.value)}
                   value={subject}
                   className={`${
-                    errMsg === "Please give your Subject!" && "outline-designColor"
+                    errMsg === "Please input your Subject!" && "outline-designColor"
                   } contactInput`}
                   type="text"
                 />
@@ -164,6 +157,11 @@ const Contact = () => {
                   Send Message
                 </button>
               </div>
+              {successMsg && (
+                <p className="py-3 mt-4 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                  {successMsg}
+                </p>
+              )}
             </form>
           </div>
         </div>
