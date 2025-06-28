@@ -7,7 +7,7 @@ import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
-import Testimonial from "./components/tesimonial/Testimonial"; // Double-check spelling
+import Testimonial from "./components/testimonial/Testimonial"; // Double-check spelling
 
 function App() {
   return (
