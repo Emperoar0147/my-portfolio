@@ -1,14 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import { HashRouter } from "react-router-dom";
-import App from "./App";
-import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </React.StrictMode>
-);
+function App() {
+  return (
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <h1>Hello from Sylvanus 🚀</h1>
+      <p>If you're seeing this, your deployment works!</p>
+    </div>
+  );
+}
+
+export default App;
