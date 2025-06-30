@@ -11,7 +11,7 @@ const blogs = blogModules
 
 const BlogList = () => (
   <section className="py-20 px-4 max-w-4xl mx-auto">
-    <h2 className="text-3xl font-bold mb-4">Blog</h2>
+    <h2 className="text-3xl font-bold mb-4">Blogs</h2>
     <div className="grid gap-6 md:grid-cols-2">
       {blogs.map(({ slug, title, date }) => (
         <Link
