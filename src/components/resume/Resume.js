@@ -1,20 +1,35 @@
-import React, {  useState } from 'react'
+import React, { useState } from 'react';
 import Title from '../layouts/Title';
 import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievement';
-import Experience from "./Experience"
+import Experience from "./Experience";
 
 const Resume = () => {
-   const [educationData, setEducationData] = useState(true);
-   const [skillData, setSkillData] = useState(false);
-   const [experienceData, setExperienceData] = useState(false);
-   const [achievementData, setAchievementData] = useState(false);
+  const [educationData, setEducationData] = useState(true);
+  const [skillData, setSkillData] = useState(false);
+  const [experienceData, setExperienceData] = useState(false);
+  const [achievementData, setAchievementData] = useState(false);
+
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>
+
+      {/* Download Resume Button */}
+      <div className="flex justify-center mt-4">
+        <a
+          href={`${process.env.PUBLIC_URL}/resume.pdf`}
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-designColor text-white px-6 py-2 rounded-md hover:bg-opacity-80 transition"
+        >
+          Download My Resume (PDF)
+        </a>
+      </div>
+
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
           <li
@@ -77,13 +92,13 @@ const Resume = () => {
           </li>
         </ul>
       </div>
+
       {educationData && <Education />}
       {skillData && <Skills />}
       {achievementData && <Achievement />}
       {experienceData && <Experience />}
- 
     </section>
   );
-}
+};
 
-export default Resume
+export default Resume;

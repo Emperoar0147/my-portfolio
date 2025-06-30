@@ -19,7 +19,7 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 tracking-wide">
           "Passionate Software Engineer | BSc in Mechanical Engineering | 
           Associate Degree in Marine Engineering | Safety Officer | 
-          Lifelong Learner & Certified Lean Six Sigma White Belt | 
+          Lifelong Learner & Certified Lean Six Sigma Yellow Belt | 
           Certified in PDCA | Skilled and Certified in TESL, Virtual Assistance, 
           & Customer Service Relations | Dog Lover and Breeder | Crypto Enthusiast | 
           Dedicated to Creating a Positive Impact"
