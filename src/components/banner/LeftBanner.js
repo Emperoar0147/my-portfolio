@@ -4,7 +4,12 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Mechanical Engineer.", "Marine Engineer.", "Software Engineer.", "Safety Officer.", "Dog Lover & Breeder.", "Crypto Enthusiast."],
+      words: ["Engineering Manager", "Mechanical Engineer.", "Marine Engineer.", 
+        "Software Engineer.", "OSH (Occupational Safety and Health) Certified Practitioner.", 
+        "Lean Six Sigma Yellow Belt Certified Practitioner.", "Stanford-Certified Data Science Professional (Precision Medicine Focus)– Department of Genetics, Stanford University.", 
+        "Academic Researcher.", "Process Optimization Researcher.", "Project Management Analyst.", "Operational Risk Analyst.", "Authur.", "Public Speaker.", 
+        "Blog Writer / Technical Writer.", "ESL Teacher / Instructor.", "Dog Lover & Breeder @ Sculp Kennel.", 
+        "Brand Developer (Sculp Kennel and Tech Solutions)", "Crypto Enthusiast."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -18,7 +23,7 @@ const LeftBanner = () => {
           Hello, I'm <span className="text-designColor capitalize"> Engr. Sylvanus Uzor</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          a/an <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
