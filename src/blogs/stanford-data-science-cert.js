@@ -1,7 +1,7 @@
 // src/blogs/stanford-data-science-cert.js
 export const frontmatter = {
   slug: "stanford-data-science-cert",
-  title: "Earning My Certificate in Data Science & Precision Medicine from Stanford Medicine || Department of Genetics",
+  title: "Earning My Certificate in Fundamentals of Data Science in Precision Medicine and Cloud Computing. From Stanford Medicine || Department of Genetics (Stanford University)",
   date: "2025-06-28",
   summary: "Reflections on completing the Stanford Deep Data Research Center’s course on Data Science, Precision Medicine, and Cloud Computing.",
 };

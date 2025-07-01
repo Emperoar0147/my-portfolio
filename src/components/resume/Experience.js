@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -7,14 +7,15 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="py-12 font-titleFont flex flex-col lg:flex-row gap-20"
     >
-      <div>
+      {/* Left Column */}
+      <div className="w-full lg:w-1/2">
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2012 - Present</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-10 w-full border-l-[4px] sm:border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Intern"
             subTitle="Alpha Aviation Group - (Jul - Sept 2022)"
@@ -38,12 +39,14 @@ const Experience = () => {
           />
         </div>
       </div>
-      <div>
+
+      {/* Right Column */}
+      <div className="w-full lg:w-1/2">
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2017 - Present</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold">Trainer Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-10 w-full border-l-[4px] sm:border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="TESL"
             subTitle="Teaching English as a Second Language (2012 - Present)"
@@ -52,7 +55,7 @@ const Experience = () => {
           />
           <ResumeCard
             title="Public Speaking"
-            subTitle="SuperKing College (2017 - Present)"
+            subTitle="Don mariano Marcos Memorial State University (2017 - Present)"
             result="Philippines"
             des="Award-winning public speaker with a knack for compelling storytelling and inspiring messages, 
             known for connecting deeply with diverse audiences and earning numerous accolades for impactful presentations."
