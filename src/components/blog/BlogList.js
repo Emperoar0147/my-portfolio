@@ -10,8 +10,8 @@ const blogs = blogModules
   .sort((a, b) => new Date(b.date) - new Date(a.date));
 
 const BlogList = () => (
-  <section className="py-20 px-4 max-w-4xl mx-auto">
-    <h2 className="text-3xl font-bold mb-4">Blogs</h2>
+  <section className="w-full py-20 border-b-[1px] border-b-black">
+    <h2 className="text-5xl font-bold mb-4 text-center">Blog Posts</h2>
     <div className="grid gap-6 md:grid-cols-2">
       {blogs.map(({ slug, title, date }) => (
         <Link
