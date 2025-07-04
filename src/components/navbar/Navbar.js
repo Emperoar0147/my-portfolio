@@ -75,7 +75,11 @@ const Navbar = () => {
                 <img className="w-32" src={logo} alt="logo" />
               </RouterLink>
               <p className="text-sm text-gray-400 mt-2">
-                Passionate Software Engineer | Mechanical + Marine Engineer | Six Sigma | TESL | Dog Breeder
+                Visionary Engineer, Innovator, Entrepreneur, and CEO of Sculp Kennel and Tech Solutions.
+          As an Engineering Manager, Mechanical, Marine, and Software Engineer, Stanford-Certified Data Science Professional, 
+          and Lean Six Sigma Yellow Belt, I bring multidisciplinary expertise in software development, process optimization, 
+          and operational risk management. Beyond engineering, I’m a passionate Author, Public Speaker, ESL Instructor, 
+          and Dog Breeder—committed to delivering excellence in premium pet care and transformative tech solutions for businesses and individuals.
               </p>
             </div>
 
