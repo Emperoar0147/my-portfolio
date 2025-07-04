@@ -1,49 +1,61 @@
-import React from 'react'
+import React from 'react';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
 
 const LeftBanner = () => {
-    const [text] = useTypewriter({
-      words: ["Engineering Manager", "Mechanical Engineer.", "Marine Engineer.", 
-        "Software Engineer.", "OSH (Occupational Safety and Health) Certified Practitioner.", 
-        "Lean Six Sigma Yellow Belt Certified Practitioner.", "Stanford-Certified Data Science Professional (Precision Medicine Focus)– Department of Genetics, Stanford University.", 
-        "Academic Researcher.", "Process Optimization Researcher.", "Project Management Analyst.", "Operational Risk Analyst.", "Authur.", "Public Speaker.", 
-        "Blog Writer / Technical Writer.", "ESL Teacher / Instructor.", "Dog Lover & Breeder @ Sculp Kennel.", 
-        "Brand Developer (Sculp Kennel and Tech Solutions)", "Crypto Enthusiast."],
-      loop: true,
-      typeSpeed: 20,
-      deleteSpeed: 10,
-      delaySpeed: 2000,
-    });
+  const [text] = useTypewriter({
+    words: [
+      "Engineering Manager", 
+      "Mechanical Engineer", 
+      "Marine Engineer", 
+      "Software Engineer", 
+      "OSH Certified Practitioner", 
+      "Lean Six Sigma Yellow Belt Certified Professional", 
+      "Stanford-Certified Data Science Professional", 
+      "Academic Researcher", 
+      "Process Optimization Researcher", 
+      "Project Management Analyst", 
+      "Operational Risk Analyst", 
+      "Author", 
+      "Public Speaker", 
+      "Technical Writer", 
+      "ESL Instructor", 
+      "Dog Breeder @ Sculp Kennel", 
+      "Brand Developer", 
+      "Crypto Enthusiast"
+    ],
+    loop: true,
+    typeSpeed: 50,
+    deleteSpeed: 30,
+    delaySpeed: 2000,
+  });
+
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
-      <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">"NON POTES DARE QUOD NON HABES" ( you cannot give what you do not have ).</h4>
-        <h1 className="text-6xl font-bold text-white">
-          Hello, I'm <span className="text-designColor capitalize"> Engr. Sylvanus Uzor</span>
+    <div className="w-full lgl:w-1/2 flex flex-col gap-10">
+      <div className="flex flex-col gap-4">
+        <h4 className="text-lg font-normal text-gray-400">
+          "NON POTES DARE QUOD NON HABES" (You cannot give what you do not have)
+        </h4>
+        <h1 className="text-5xl lgl:text-6xl font-bold text-white">
+          Hello, I'm <span className="text-designColor capitalize">Engr. Sylvanus Uzor</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-3xl lgl:text-4xl font-bold text-white">
           a/an <span>{text}</span>
           <Cursor
-            cursorBlinking="false"
+            cursorBlinking={true}
             cursorStyle="|"
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-          A Multifaceted Engineer, an Entrepreneur & CEO, SCULP KENNEL and Tech Solutions. 
-          Sculp Kennel and Tech Solutions offers 
-          expert dog breeding, importation, 
-          and premium pet accessories, alongside 
-          innovative tech services for businesses 
-          and individuals. We are your trusted partner 
-          for both pet care and tech solutions.
+        <p className="text-base font-bodyFont leading-7 tracking-wide text-gray-300">
+          Visionary Engineer, Innovator, Entrepreneur, and CEO of Sculp Kennel and Tech Solutions.
+As an Engineering Manager, Mechanical, Marine, and Software Engineer, Stanford-Certified Data Science Professional, and Lean Six Sigma Yellow Belt, I bring multidisciplinary expertise in software development, process optimization, and operational risk management. Beyond engineering, I’m a passionate Author, Public Speaker, ESL Instructor, and Dog Breeder—committed to delivering excellence in premium pet care and transformative tech solutions for businesses and individuals.
         </p>
       </div>
-     {/* Media */}
-     <Media />
+      {/* Media */}
+      <Media />
     </div>
   );
 }
 
-export default LeftBanner
+export default LeftBanner;

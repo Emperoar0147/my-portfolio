@@ -14,15 +14,14 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Engr. Sylvanus Uzor</h3>
         <p className="text-lg font-normal text-gray-400">
-          A Multifaceted Engineer
+          A Multifaceted Engineer & Entrepreneur.
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          "Passionate Software Engineer | BSc in Mechanical Engineering | 
-          Associate Degree in Marine Engineering | Safety Officer | 
-          Lifelong Learner & Certified Lean Six Sigma Yellow Belt | 
-          Certified in PDCA | Skilled and Certified in TESL, Virtual Assistance, 
-          & Customer Service Relations | Dog Lover and Breeder | Crypto Enthusiast | 
-          Dedicated to Creating a Positive Impact"
+          "Visionary Engineer, Innovator, Entrepreneur, and CEO of Sculp Kennel and Tech Solutions.
+          As an Engineering Manager, Mechanical, Marine, and Software Engineer, Stanford-Certified Data Science Professional, 
+          and Lean Six Sigma Yellow Belt, I bring multidisciplinary expertise in software development, process optimization, 
+          and operational risk management. Beyond engineering, I’m a passionate Author, Public Speaker, ESL Instructor, 
+          and Dog Breeder—committed to delivering excellence in premium pet care and transformative tech solutions for businesses and individuals."
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+639554556537</span>
