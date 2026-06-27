@@ -16,6 +16,12 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Educational Attainment</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+         <ResumeCard
+            title="Master in Management Engineering"
+            subTitle="Don Mariano Marcos Memorial State University, Mid La Union Campus, Philippines. (2023 - 2026)"
+            result="82.65/100"
+            des="Earned my Master's degree with Academic Excellence Award."
+          /> 
           <ResumeCard
             title="BSc in Mechanical Engineering"
             subTitle="Don Mariano Marcos Memorial State University, Mid La Union Campus, Philippines. (2017 - 2022)"
@@ -27,7 +33,7 @@ const Education = () => {
             subTitle="Merchant Seaman Academy, Akwa Ibom, Nigeria (2015 - 2017)"
             result="4.75/5"
             des="Associate degrees are a form of higher education, also known as post-secondary education, 
-            which lead to the awarding of an academic qualification. They are typically offered by colleges and universities and provide foundational training for various fields."
+            which leads to the awarding of an academic qualification. They are typically offered by colleges and universities and provide foundational training for various fields."
           />
           <ResumeCard
             title="Secondary School Education"
@@ -46,20 +52,20 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Intern"
+            title="Aircraft Maintenance Technician - Intern"
             subTitle="Alpha Aviation Group - (Jul - Sept 2022)"
             result="Philippines"
             des="Line maintenance: Fire guarding, pre-flight, transit, and post-flight check on all aircraft at the ramp. Base maintenance: Phase 1, phase 2, and Phase 3 aircraft maintenance."
           />
           <ResumeCard
-            title="Intern"
-            subTitle="Okey and Sons Automobile - (2014 - 2015)"
+            title="Mechanical Engineering Intern"
+            subTitle="ESTVIC OKEY JAPAN MOTORS - (2013 - 2015)"
             result="Nigeria"
             des="Running automobile diagnostics, servicing automobiles, fixing and replacement of vehicle mechanical components, as well as performing routine automobile maintenance work."
           />
           <ResumeCard
             title="TESL"
-            subTitle="Teaching English as a Second Language (2012 - Present)"
+            subTitle="Teaching English as a Second Language (2023 - Present)"
             result="Remote"
             des="Teaching English Language as a Second Language to Speakers of other Languages."
           />
