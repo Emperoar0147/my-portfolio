@@ -12,16 +12,19 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Engr. Sylvanus Uzor</h3>
+        <h3 className="text-3xl font-bold text-white">Engr. Sylvanus C. Uzor</h3>
         <p className="text-lg font-normal text-gray-400">
-          A Multifaceted Engineer & Entrepreneur.
+          Visionary Engineer | Innovator | Entrepreneur | CEO of Sculpkennel and Tech Solutions | Published Author
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          "Visionary Engineer, Innovator, Entrepreneur, and CEO of Sculp Kennel and Tech Solutions.
-          As an Engineering Manager, Mechanical, Marine, and Software Engineer, Stanford-Certified Data Science Professional, 
-          and Lean Six Sigma Yellow Belt, I bring multidisciplinary expertise in software development, process optimization, 
-          and operational risk management. Beyond engineering, I’m a passionate Author, Public Speaker, ESL Instructor, 
-          and Dog Breeder—committed to delivering excellence in premium pet care and transformative tech solutions for businesses and individuals."
+          "Multidisciplinary engineer and academic researcher recognized with an Academic Excellence Award for my Master’s in Management Engineering. 
+          My expertise spans Mechanical, Marine, and Software Engineering, strengthened by certifications in Lean Six Sigma (White, Yellow, Black Belt), 
+          Occupational Safety & Health, and TESL/TEFL teaching. I also hold advanced training in Data Science and Precision Medicine from Stanford Medicine, 
+          alongside specialization in frontend software engineering. As founder and CEO of Sculpkennel and Tech Solutions, I merge engineering management, 
+          software innovation, and creative storytelling to deliver transformative solutions for businesses and communities. My work integrates process optimization, 
+          operational risk management, and AI‑powered creative direction, while my entrepreneurial ventures extend into premium pet care and dog breeding programs under the Sculpkennel brand.
+          Beyond engineering, I am a published author, public speaker, and ESL instructor, committed to inspiring diverse audiences and fostering knowledge exchange. My vision is to build a brand that blends technical excellence, 
+          creative impact, and social responsibility—driving innovation that bridges technology, education, and humanity."
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+639554556537</span>

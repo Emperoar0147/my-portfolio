@@ -19,17 +19,17 @@ const Education = () => {
          <ResumeCard
             title="Master in Management Engineering"
             subTitle="Don Mariano Marcos Memorial State University, Mid La Union Campus, Philippines. (2023 - 2026)"
-            result="82.65/100"
-            des="Earned my Master's degree with Academic Excellence Award."
+              result="95.45/100 = {Recipient, Academic Excellence Award}"
+            des="Thesis title: Faculty Administration Management System (FAMS) at DMMMSU College of Engineering. {I earned my Master's degree with an Academic Excellence Award.}"
           /> 
           <ResumeCard
-            title="BSc in Mechanical Engineering"
+            title="Bachelor of Science in Mechanical Engineering"
             subTitle="Don Mariano Marcos Memorial State University, Mid La Union Campus, Philippines. (2017 - 2022)"
             result="82.65/100"
-            des="Universities offer training programs designed to equip individuals with the skills and knowledge needed to work in diverse economic sectors and cultural fields."
+            des="Thesis title: Electric Bamboo Splitter."
           />
           <ResumeCard
-            title="Associate Degree - Marine Engineering"
+            title="National Diploma in Marine Engineering"
             subTitle="Merchant Seaman Academy, Akwa Ibom, Nigeria (2015 - 2017)"
             result="4.75/5"
             des="Associate degrees are a form of higher education, also known as post-secondary education, 

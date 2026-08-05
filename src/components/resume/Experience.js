@@ -25,7 +25,7 @@ const Experience = () => {
           />
           <ResumeCard
             title="Intern"
-            subTitle="Okey and Sons Automobile - (2014 - 2015)"
+            subTitle="ESTVIC OKEY JAPAN MOTORS - (2013 - 2015)"
             result="Nigeria"
             des="Running automobile diagnostics, servicing automobiles, 
             fixing and replacement of vehicle mechanical components, 
